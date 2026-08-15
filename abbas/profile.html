@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lecturer Profile</title>
+    <style>
+     
+/* 
+        .lecturer-profile {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+      
+
+        .lecturer-photo img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .lecturer-info {
+            text-align: center;
+        }
+
+        .lecturer-info h2 {
+            margin-top: 0;
+        }
+
+        .lecturer-info p {
+            margin-bottom: 0;
+        }
+        .lecturer-profile {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .lecturer-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+
+        .lecturer-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .lecturer-info {
+            font-size: 18px;
+        }
+
+        .lecturer-info h2 {
+            margin-top: 0;
+        } */
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #057dfdb3;
+    margin: 0;
+    padding: 0;
+}
+.lecturer-photo {
+            border-radius: 50%;
+            height: 150px;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            width: 150px;
+    
+ }
+#main{
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    border:3px solid rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+h3 {
+    color: #007bff;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+}
+
+#main .lecturer-info div{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.gb-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    overflow: hidden;
+}
+#gbbtn
+{
+    display: flex;
+    justify-content: center;
+    margin-top:23px;
+}
+.gb-btn:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <!-- <div class="lecturer-profile">
+        <div class="lecturer-photo">
+            <img src="lecturer_photo.jpg" alt="Lecturer Photo">
+        </div>
+        <div class="lecturer-info">
+            <h2>Lecturer Name</h2>
+            <p>Department: Computer Science</p>
+            <p>Email: lecturer@example.com</p>
+        </div>
+    </div> -->
+    <div id="main">
+        <div class="lecturer-profile">
+            <div class="lecturer-photo">
+                <img src="stu5.jpeg" alt="Lecturer Photo">
+            </div>
+            <div class="lecturer-info">
+                <div type="text" name="lecturer-name" disabled>
+                    <h3>Name:</h3>
+                </div>
+                <div type="text" name="lecturer-ql"  disabled>
+                <h3>Qualification:</h3>
+                </div>
+                <div type="text" name="lecturer-subject" disabled>
+                <h3>Subjects:</h3>
+                </div>
+
+            </div>
+        </div>
+        <div id="gbbtn">
+            <button class="gb-btn"> &lt;&lt; Go back  </button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
